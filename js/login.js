@@ -24,7 +24,7 @@ function validateFormLogin(){
    }
    else{
     document.getElementById('errorpassword').innerHTML="";
-    alert("You've logged in successfully, you can Donate now! Thank you!");  
+    alert("You've logged in successfully!");  
    }
   
 }  
