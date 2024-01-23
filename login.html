@@ -24,6 +24,7 @@
 
             <p id="dont">You don't have an account? <a href="register.html"> Register here </a></p>
             <input type="submit" value="Login" id="dnButt"><br>
+            <p><a href="index.html"> Go back </a></p>
             <h1 id="testim"></h1>
             </form>
         </div>
