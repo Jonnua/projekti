@@ -13,7 +13,7 @@
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
-          <a href="index.html">
+          <a href="index.php">
             <h1><span>J</span>O- <span>N</span>A <span>T</span>RAVEL</h1>
           </a>
         </div>
@@ -27,8 +27,8 @@
             <li><a href="#projects" data-after="Service">Package</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
-            <li><a href="book.html" data-after="Book">Book</a></li>
-            <li><a href="index.html" data-after="Book">LogOut</a></li>
+            <li><a href="book.php" data-after="Book">Book</a></li>
+            <li><a href="index.php" data-after="Book">LogOut</a></li>
           </ul>
         </div>
       </div>
