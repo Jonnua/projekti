@@ -13,7 +13,7 @@
    <div class="header container">
      <div class="nav-bar">
        <div class="brand">
-         <a href="index.html">
+         <a href="index.php">
            <h1><span>J</span>O- <span>N</span>A <span>T</span>RAVEL</h1>
          </a>
        </div>
@@ -22,12 +22,12 @@
            <div class="bar"></div>
          </div>
          <ul>
-          <li><a href="afterlogin.html#hero" data-after="Home">Home</a></li>
-          <li><a href="afterlogin.html#services" data-after="Service">Transporti</a></li>
-          <li><a href="afterlogin.html#projects" data-after="Service">Package</a></li>
-          <li><a href="afterlogin.html#about" data-after="About">About</a></li>
-          <li><a href="afterlogin.html#contact" data-after="Contact">Contact</a></li>
-          <li><a href="index.html" data-after="Book">LogOut</a></li>
+          <li><a href="afterlogin.php#hero" data-after="Home">Home</a></li>
+          <li><a href="afterlogin.php#services" data-after="Service">Transporti</a></li>
+          <li><a href="afterlogin.php#projects" data-after="Service">Package</a></li>
+          <li><a href="afterlogin.php#about" data-after="About">About</a></li>
+          <li><a href="afterlogin.php#contact" data-after="Contact">Contact</a></li>
+          <li><a href="index.php" data-after="Book">LogOut</a></li>
          </ul>
        </div>
      </div>
