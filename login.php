@@ -12,7 +12,7 @@
     <main>
         <div class="formStyle">
             <p id="loginForm">Login</p>
-            <form action="afterlogin.html" name="myForm" onsubmit="return validateFormLogin()">
+            <form action="afterlogin.php" name="myForm" onsubmit="return validateFormLogin()">
                 
             <label for="email" class="arrangeLabel" id="pak1">Email: </label>
             <input type="email" placeholder="Enter email" id="emaili" name="email"><br>
@@ -22,9 +22,9 @@
             <input type="password" placeholder="Enter password" id="passi" name="password">
             <span class="error" id="errorpassword"></span>
 
-            <p id="dont">You don't have an account? <a href="register.html"> Register here </a></p>
+            <p id="dont">You don't have an account? <a href="register.php"> Register here </a></p>
             <input type="submit" value="Login" id="dnButt"><br>
-            <p><a href="index.html"> Go back </a></p>
+            <p><a href="index.php"> Go back </a></p>
             <h1 id="testim"></h1>
             </form>
         </div>
