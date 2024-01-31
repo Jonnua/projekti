@@ -28,7 +28,7 @@
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
             <li><a href="login.php" data-after="login">Login</a></li>
-            <li><a href="register.html" data-after="register">Sign Up</a></li>
+            <li><a href="register.php" data-after="register">Sign Up</a></li>
           </ul>
         </div>
       </div>
