@@ -12,7 +12,7 @@
     <main>
         <div class="formStyle">
             <p id="registerForm">Register</p>
-            <form action="login.html" name="myForm" onsubmit="return validateFormRegister()">
+            <form action="login.php" name="myForm" onsubmit="return validateFormRegister()">
             <label for="name" class="arrangeLabel" id="pak1">Name: </label><br>
             <input type="text" placeholder="Enter name..." name="name"><br>
             <span class="error" id="errorname"></span><br>
@@ -28,9 +28,9 @@
             <label for="password" class="arrangeLabel" id="pak4">Password: </label><br>
             <input type="password" placeholder="Enter password..." name="password"><br> 
             <span class="error" id="errorpassword"></span><br>
-            <p id="dont">You already have an account? <a href="login.html"> Login here </a></p>
+            <p id="dont">You already have an account? <a href="login.php"> Login here </a></p>
             <input type="submit" value="Register" id="dnButt"><br>
-            <p><a href="index.html"> Go back </a></p>
+            <p><a href="index.php"> Go back </a></p>
             
             </form>
         </div>
