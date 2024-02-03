@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #bbb 1px solid;
+}
+
+#header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+#bookings .container {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#bookings h1 {
+    text-align: center;
+    color: #333;
+}
+
+#bookings form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    margin-bottom: 30px;
+}
+
+#bookings form label {
+    margin-bottom: 5px;
+}
+
+#bookings form input,
+#bookings form button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#bookings form button {
+    grid-column: span 2;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#bookings form button:hover {
+    background-color: #4cae4c;
+}
+#bookings table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#bookings th, #bookings td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#bookings th {
+    background-color: #f0f0f0;
+}
+
+#footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-list ul {
+        padding: 0;
+    }
+
+    .nav-list ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    #bookings form {
+        grid-template-columns: 1fr;
+    }
+
+    #bookings form button {
+        grid-column: span 1;
+    }
+}
